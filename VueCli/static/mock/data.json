@@ -1,0 +1,25 @@
+{
+  "name": "Yang",
+  "url": "https://blog.Yang.com",
+  "page": 1,
+  "isNonProfit": true,
+  "address": {
+    "street": "Axios",
+    "city": "湖南长沙",
+    "country": "中国"
+  },
+  "links": [
+    {
+      "name": "bilibili",
+      "url": "https://bilibili.com"
+    },
+    {
+      "name": "Google",
+      "url": "Google.com"
+    },
+    {
+      "name": "百度",
+      "url": "https://www.baidu.com/"
+    }
+  ]
+}

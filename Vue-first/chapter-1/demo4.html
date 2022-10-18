@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--    1.导入Vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+</head>
+<body>
+
+<!--view层 = 模板-->
+<div id="app">
+    <button v-on:click="sayHi">click Re</button>
+</div>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        //model : 数据
+        data: {
+            msg: "Vue"
+        },
+        methods: {//方法必须在 Vue 的 methods 对象中, v-on: 事件;function(可自定义)
+            sayHi: function (eve) {
+                alert(this.msg);
+            }
+        }
+    });
+</script>
+</body>
+</html>

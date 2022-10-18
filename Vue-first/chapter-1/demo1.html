@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--    1.导入Vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js"></script>
+</head>
+<body>
+
+<!--view层 = 模板-->
+<div id="app">
+    <span v-bind:title="msg"></span>
+</div>
+<script>
+    var vm = new Vue({
+        el:"#app",
+        //model : 数据
+        data:{
+            msg:"Hello,Vue"
+        }
+    });
+</script>
+</body>
+</html>
